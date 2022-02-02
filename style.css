@@ -1,0 +1,308 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+/* Navbar*/
+.navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(0, 0, 0, 0.10);
+    position: sticky;
+    top: 0px;
+}
+.navbar ul{
+    display: flex;
+    list-style: none;
+    margin: 20px 0px;
+    width: auto;
+    height: auto;
+    position: sticky;
+}
+.navbar ul li{
+    font-family: century;
+    font-size: 2rem;
+    font-weight: bold;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: rgba(10, 10, 10, 0.562);
+    border-radius: 5px;
+    padding: 5px 20px;
+    transition: all .5s ease;
+}
+.navbar ul li a:hover{
+    background-color: white;
+    color: black;
+    box-shadow: 0px 0px 10px black;
+}
+
+/*Home Section*/
+#home{
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+    height: 700px;
+    justify-content: center;
+    align-items: center;
+    color: black;
+
+}
+#home::before{
+    content: "";
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    background: url('/images/dp.jpg') no-repeat center center/cover;
+    height: 800px;
+    width: 100%;
+    z-index: -1;
+    opacity: .8;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    /* border: 5px solid rgb(118, 109, 126); */
+    top: 30%;
+    right: 10%;
+    padding-bottom: 100px;
+}
+.headings{
+    font-family: century;
+    font-size: 3rem;
+    text-align: center;
+    margin: 40px 0px;
+}
+.btn{
+    padding: 10px 35px;
+    background-color: transparent;
+    border: 2px solid rgb(41, 200, 221);
+    color: black;
+    border-radius: 5px;
+    outline: none;
+    transition: .6s ease;
+}
+.btn:hover{
+    cursor: pointer;
+    border-color: rgb(255, 255, 255);
+    color: tomato;
+    box-shadow: 0 0 5px white, 0 0 10px white, 0 0 15px white;
+    font-weight: bold;
+}
+
+/*About Section*/
+#about{
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(153, 144, 144, 0.356);
+    padding: 40px;
+}
+#pic{
+    display: flex;
+}
+#pic img{
+    width: 575px;
+    height: 400px;
+    margin: 2%;
+    border-radius: 10px;
+}
+
+/*Edit*/
+#pic ul{
+    display: block;
+    list-style: none;
+    margin: 20px 0px;
+    width: auto;
+    height: auto;
+    position: sticky;
+}
+#pic ul li{
+    margin-top: 70px;
+    font-family: century;
+    font-size: 2rem;
+    font-weight: bold;
+}
+#pic ul li a{
+    text-decoration: none;
+    color: black;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    padding: 5px 10px;
+    transition: all .5s ease;
+}
+#pic ul li a:hover{
+    background-color: white;
+    color: rgb(42, 167, 216);
+    box-shadow: 0px 0px 10px rgba(34, 34, 180, 0.596);
+}
+
+#intro{
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    padding: 10px;
+    margin: 2%;
+    background-color: darkgrey;
+}
+#intro h2{
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+#btn-d{
+    margin: 5px;
+}
+.btn-2{
+    margin: 5px;
+    padding: 10px 35px;
+    background-color: transparent;
+    border: 2px solid rgb(41, 200, 221);
+    border-radius: 5px;
+    color: rgb(248, 248, 248);
+    outline: none;
+    transition: .6s ease;
+}
+.btn-2:hover{
+    cursor: pointer;
+    border-color: white;
+    color: tomato;
+    box-shadow: 0 0 5px white, 0 0 10px white, 0 0 15px white;
+    font-weight: bold;
+}
+.btn-3{
+    margin: 5px;
+    padding: 10px 35px;
+    background-color: transparent;
+    border: 2px solid rgb(41, 200, 221);
+    border-radius: 5px;
+    color: rgb(248, 248, 248);
+    outline: none;
+    transition: .6s ease;
+}
+.btn-3:hover{
+    cursor: pointer;
+    border-color: white;
+    color: tomato;
+    box-shadow: 0 0 5px white, 0 0 10px white, 0 0 15px white;
+    font-weight: bold;
+}
+
+/*portfolio ection*/
+#portfolio{
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(236, 225, 225, 0.452);
+    color: black;
+    align-items: center;
+    padding: 40px;
+}
+.gallary{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    box-sizing: border-box;
+}
+.gallary img{
+    width: 340px;
+    height: 200px;
+    margin: 10px;
+}
+
+/*Services Section*/
+#services{
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+    background-color: rgba(168, 164, 158, 0.438);
+}
+.row{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    height: 450px;
+    border: 5px solid black;
+    margin: 10px;
+    align-items: center;
+    text-align: justify;
+    padding: 10px;
+    border-radius: 15px;
+    background: linear-gradient(to top, rgb(255,45,45) 50%, white 50%);
+    background-size: 100% 200%;
+    transition: all .8s;
+}
+.box:hover{
+    background-position: left bottom;
+    color: white;
+    border: none;
+    box-shadow: 0 0 20px rgb(255, 45, 45);
+
+}
+.box img{
+    height: 80px;
+    width: 80px;
+    background-color: white;
+    padding: 10px;
+}
+/*Contact Section*/
+#contact{
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    background-color: rgba(167, 157, 157, 0.089);
+    color: black;
+    padding: 40px;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    align-items: center;
+    margin: 20px 0px;
+}
+.input{
+    padding: 10px;
+    margin: 15px;
+    width: 30%;
+    border: 2px solid rgb(41, 200, 221);
+    outline: none;
+}
+#msg{
+    width: 20%;
+    padding: 10px;
+    margin: 15px;
+    border: 2px solid rgb(41, 200, 221);
+    outline: none;
+}
+#send{
+    width: 10%;
+    padding: 10px;
+    margin: 15px;
+    border: 2px solid rgb(41, 200, 221);
+    border-radius: 5px;
+    outline: none;
+}
+#send:hover{
+    cursor: pointer;
+    border: none;
+    box-shadow: 0 0 10px blueviolet;
+    color: tomato;
+    font-weight: bold;
+}
+footer{
+    text-align: center;
+    margin: 10px;
+    background-color: black;
+    color: white;
+}
