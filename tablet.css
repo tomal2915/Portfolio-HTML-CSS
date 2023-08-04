@@ -23,8 +23,12 @@
     align-items: center;
 }
 #pic img{
-    width: 475px;
-    height: 300px;
+    width: 575px;
+    height: 600px;
+}
+#pic ul {
+    display: flex;
+    gap: 10px;
 }
 #intro h2{
     text-align: center;

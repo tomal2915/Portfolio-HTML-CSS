@@ -146,7 +146,7 @@ html{
 #intro{
     display: flex;
     flex-direction: column;
-    text-align: justify;
+    text-align: center;
     padding: 10px;
     margin: 2%;
     background-color: darkgrey;

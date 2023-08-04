@@ -28,9 +28,12 @@
 }
 
 /*About*/
+#pic ul li{
+    margin-top: 0;
+}
 #pic img {
     width: 300px;
-    height: 175px;
+    height: 300px;
 }
 
 #intro h2 {
@@ -54,5 +57,5 @@
 }
 
 #send {
-    width: 20%;
+    width: 30%;
 }
