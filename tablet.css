@@ -3,6 +3,9 @@
     flex-wrap: wrap;
     justify-content: center;
 }
+.navbar ul li a{
+    font-size: 20px;
+}
 
 /*Home*/
 #home{

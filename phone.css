@@ -1,34 +1,58 @@
+/* navbar */
+
+/* .navbar{
+
+} */
+.navbar ul{
+    margin: 0;
+    padding: 0;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+.navbar ul li a {
+    font-size: .5rem;
+    padding: 2px 9px;
+    text-align: center;
+
+}
+
 /*Home*/
-#home{
+#home {
     height: 820px;
 }
-.headings{
+
+.headings {
     font-size: 1.7rem;
 }
 
 /*About*/
-#pic img{
+#pic img {
     width: 300px;
     height: 175px;
 }
-#intro h2{
+
+#intro h2 {
     font-size: 1.5rem;
 }
 
 /*Portfolio*/
-.gallary img{
+.gallary img {
     width: 150px;
     height: 175px;
     margin: 10px;
 }
 
 /*Contact*/
-.input{
+.input {
     width: 80%;
 }
-#msg{
+
+#msg {
     width: 70%;
 }
-#send{
+
+#send {
     width: 20%;
 }

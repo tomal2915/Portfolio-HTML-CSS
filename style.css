@@ -22,7 +22,6 @@ html{
     margin: 20px 0px;
     width: auto;
     height: auto;
-    position: sticky;
 }
 .navbar ul li{
     font-family: century;
@@ -31,6 +30,7 @@ html{
 }
 .navbar ul li a{
     text-decoration: none;
+    text-align: center;
     color: rgba(10, 10, 10, 0.562);
     border-radius: 5px;
     padding: 5px 20px;
@@ -38,7 +38,7 @@ html{
 }
 .navbar ul li a:hover{
     background-color: white;
-    color: black;
+    color: rgb(94, 93, 93);
     box-shadow: 0px 0px 10px black;
 }
 
@@ -58,7 +58,7 @@ html{
     position: absolute;
     top: 0px;
     right: 0px;
-    background: url('/images/dp.jpg') no-repeat center center/cover;
+    background: url('./images/dp.jpg') no-repeat center center/cover;
     height: 800px;
     width: 100%;
     z-index: -1;
